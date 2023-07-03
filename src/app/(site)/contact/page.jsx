@@ -68,7 +68,7 @@ export default function Contact() {
           <Link
             className=" text-xl font-semibold text-center bg-slate-100 text-black
          mb-4 border p-2 rounded-md" style={{ letterSpacing: "0.2rem" }}
-            href="https://drive.google.com/file/d/1y-Hod-tFwYAyUGtkQNYybBmauUk2EZnW/view?usp=sharing"
+            href="https://drive.google.com/file/d/14HPLYl5sZYiUbVeqdqxcNMFWfbjuAwUM/view?usp=sharing"
           >
             {" "}
            View Resume
