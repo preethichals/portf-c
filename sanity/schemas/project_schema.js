@@ -41,6 +41,16 @@ const project = {
         title:'URL',
         type:'url',
       },
+      {
+        name:'git',
+        title:'Git',
+        type:'url',
+      },
+      {
+        name:'render',
+        title:'Render',
+        type:'url',
+      },
       { 
         name:'content',
         title:'Content',

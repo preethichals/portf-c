@@ -12,7 +12,7 @@ export default function Footer() {
       <span>
         <Link
           href="#home"
-          className=" scroll-smooth bg-white text-black p-2 font-semibold rounded-md"
+          className=" scroll-smooth bg-white text-black p-2 font-semibold rounded-md" target="_blank" rel="noopener noreferrer"
         >
           Scroll To Top
         </Link>

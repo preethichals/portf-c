@@ -37,7 +37,7 @@ export default function Contact() {
           <Link
             className=" text-xl text-cyan-950 font-bold text-center 
         leading-relaxed mb-4 border-2 border-gray-300 p-2 rounded-md hover:bg-gray-900 hover:text-amber-600"
-            id="sendemail"
+            id="sendemail" target="_blank" rel="noopener noreferrer"
             href="mailto:preethi.lyn@gmail.com"
           >
             Click to Send Email
@@ -54,7 +54,7 @@ export default function Contact() {
           <Link
             className=" text-xl text-cyan-950 font-bold text-center 
         leading-relaxed mb-4"
-            href="mailto:preethi.lyn@gmail.com"
+            href="mailto:preethi.lyn@gmail.com" target="_blank" rel="noopener noreferrer"
           >
             {" "}
             preethi.lyn@gmail.com
@@ -68,7 +68,7 @@ export default function Contact() {
           <Link
             className=" text-xl font-semibold text-center bg-slate-100 text-black
          mb-4 border p-2 rounded-md" style={{ letterSpacing: "0.2rem" }}
-            href="https://drive.google.com/file/d/14HPLYl5sZYiUbVeqdqxcNMFWfbjuAwUM/view?usp=sharing"
+            href="https://drive.google.com/file/d/1y-Hod-tFwYAyUGtkQNYybBmauUk2EZnW/view?usp=sharing" target="_blank" rel="noopener noreferrer"
           >
             {" "}
            View Resume
@@ -85,7 +85,7 @@ export default function Contact() {
             <Link
               className=" text-xl text-cyan-950 font-bold text-center 
         leading-relaxed mb-4"
-              href="https://github.com/preethichals"
+              href="https://github.com/preethichals" target="_blank" rel="noopener noreferrer"
             >
               {" "}
               GitHub
@@ -95,7 +95,7 @@ export default function Contact() {
             <Link
               className=" text-xl text-cyan-950 font-bold text-center 
         leading-relaxed mb-4"
-              href="https://www.linkedin.com/in/preethi-m-43289b6a/"
+              href="https://www.linkedin.com/in/preethi-m-43289b6a/" target="_blank" rel="noopener noreferrer"
             >
               {" "}
               | LinkedIn{" "}
