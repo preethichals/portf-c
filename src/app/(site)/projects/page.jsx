@@ -10,7 +10,7 @@ export default async function ProjectPage() {
   return (
     <>
       <div className=" bg-white m-4" id="projectlist">
-        <h4 className="text-5xl font-extrabold text-center m-2 headingcursive bg-gradient-to-r from-orange-400 via-red-500 to-cyan-700 bg-clip-text text-transparent>Projects">
+        <h4 className="text-5xl font-extrabold text-center m-2 headingcursive text-neutral-700">
           {" "}
           --------- Projects ---------
         </h4>
@@ -20,8 +20,8 @@ export default async function ProjectPage() {
         sm:gap-4 lg:gap-5 bg-gray-200 p-4 border-2 border-gray-300 rounded-2xl"
         >
           {projects.map((product) => (
-            <div key={product._id} className="rounded-lg bg-white">
-              <h5 className="font-medium text-gray-900 text-xl p-2 text-center uppercase " style={{letterSpacing:"0.2rem"}}>
+            <div key={product._id} className="rounded-lg bg-white py-2">
+              <h5 className="font-medium text-cyan-700 text-xl p-2 text-center uppercase " style={{letterSpacing:"0.2rem"}}>
                 {product.name}
               </h5>
               {product.image && (
@@ -45,7 +45,7 @@ export default async function ProjectPage() {
                   href={`${product.url}`}
                 >
                   <button
-                    className=" bg-red-50 font-light justify-items-center uppercase py-2 px-3 rounded-lg"
+                    className=" bg-neutral-700 text-white  border border-neutral-800 font-medium justify-items-center uppercase py-2 px-3 rounded-lg hover:font-medium  hover:bg-cyan-600 scale-100 hover:scale-105 transition"
                     style={{ letterSpacing: "0.1rem" }}
                   >
                     View Project 
@@ -60,7 +60,7 @@ export default async function ProjectPage() {
                 >
              
                   <button
-                    className="flex justify-center align-middle bg-red-50 font-light justify-items-center uppercase py-2 px-3 rounded-lg"
+                    className="bg-neutral-700 text-white hover:text-white border border-neutral-800 justify-items-center uppercase py-2 px-3 rounded-lg font-medium scale-100 hover:scale-105 transition hover:bg-amber-600"
                     style={{ letterSpacing: "0.1rem" }}
                   ><span>View Code</span> 
                    

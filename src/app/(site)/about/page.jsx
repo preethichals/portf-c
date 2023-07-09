@@ -11,7 +11,7 @@ function About() {
     >
       <div className=" bg-white sm:border-r-0 lg:border-r-4 border-cyan-800 p-4">
         <p
-          className=" text-2xl text-cyan-950 font-bold uppercase text-center 
+          className=" text-2xl text-cyan-950 font-medium uppercase text-center letter-spacing1
         leading-relaxed mb-4 p-4"
         >
           React - Front End Developer
@@ -24,18 +24,18 @@ function About() {
           </span>
         </h4>
         <p
-          className=" text-lg text-cyan-950 font-bold uppercase text-center 
+          className=" text-xl text-cyan-950 font-medium text-center 
         leading-relaxed mb-4 p-4"
         >
-          Crafting website designs is a TRUE pleasure of Mine.
-          I enjoy the process of taking an idea and transforming it into a
-          beautiful and functional website.
+          Crafting Website designs is a TRUE pleasure of Mine.<br/>
+          I Enjoy the process of taking an Idea and Transforming it into a
+          Beautiful and Functional website.
         </p>
 
         <div className="flex justify-center my-2">
           <button
-            className=" text-base hover:font-extrabold rounded-md px-4 py-2 bg-gradient-to-r to-amber-600 from-red-700 
-          m-1 uppercase text-white font-bold scale-100 hover:scale-110 transition scroll-smooth"
+            className=" text-base rounded-md px-4 py-2 bg-gradient-to-r to-amber-600 from-red-700 
+          m-1 uppercase text-white font-medium scale-100 hover:scale-110 transition scroll-smooth"
             style={{ letterSpacing: "0.2rem" }}
           >
             {" "}
@@ -57,7 +57,7 @@ function About() {
           width={500}
           height={300}
           alt="img-banner-01"
-          className="scale-100 hover:scale-105 transition"
+          className=""
         />
       </div>
     </div>

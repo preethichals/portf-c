@@ -64,7 +64,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
               shadow-md shadow-red-500/50"
             >
-              <h3 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h3 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 Front-End
               </h3>
               <p className="bg-white text-sky-900 text-base">
@@ -79,7 +79,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
              shadow-md shadow-red-500/50"
             >
-              <h3 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h3 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 DataBase
               </h3>
               <p className="bg-white text-sky-900 text-base">My SQL</p>
@@ -89,7 +89,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
               shadow-md shadow-red-500/50"
             >
-              <h4 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h4 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 Back-End
               </h4>
               <p className="bg-white text-sky-900 text-base">
@@ -102,7 +102,7 @@ export default async function Skills() {
               className="rounded-md m-1 text-center p-2
               shadow-md shadow-red-500/50"
             >
-              <h3 className=" text-red-700 text-lg font-bold rounded-md underline uppercase m-1">
+              <h3 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 UI/UX design,
                 <br /> Other <br />
               </h3>
