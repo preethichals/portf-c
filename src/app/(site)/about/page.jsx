@@ -34,12 +34,12 @@ function About() {
 
         <div className="flex justify-center my-2">
           <button
-            className=" text-base rounded-md px-4 py-2 bg-gradient-to-r to-amber-600 from-red-700 
+            className=" text-lg rounded-md px-4 py-2 bg-gradient-to-r to-amber-600 from-red-700 
           m-1 uppercase text-white font-medium scale-100 hover:scale-110 transition scroll-smooth"
             style={{ letterSpacing: "0.2rem" }}
           >
             {" "}
-            <Link href="https://drive.google.com/file/d/1y-Hod-tFwYAyUGtkQNYybBmauUk2EZnW/view?usp=sharing" target="_blank" rel="noopener noreferrer" className=" scroll-smooth">
+            <Link href="https://drive.google.com/file/d/1WSMqAGHHY9RLZ8-_P7L5np9nD4yjy2yQ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className=" scroll-smooth">
               View Resume
             </Link>{" "}
           </button>

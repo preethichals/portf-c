@@ -98,7 +98,7 @@ export default function Contact() {
           <Link
             className=" text-lg font-medium text-center bg-gradient-to-r to-amber-600 from-red-700 text-white
          mb-4 border py-3 px-4 rounded-lg" style={{ letterSpacing: "0.2rem" }}
-            href="https://drive.google.com/file/d/1y-Hod-tFwYAyUGtkQNYybBmauUk2EZnW/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+            href="https://drive.google.com/file/d/1WSMqAGHHY9RLZ8-_P7L5np9nD4yjy2yQ/view?usp=sharing" target="_blank" rel="noopener noreferrer"
           >View Resume</Link>
         </p>
       </div>
