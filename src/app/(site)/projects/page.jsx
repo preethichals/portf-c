@@ -24,6 +24,11 @@ export default async function ProjectPage() {
               <h5 className="font-medium text-cyan-700 text-xl p-2 text-center uppercase " style={{letterSpacing:"0.2rem"}}>
                 {product.name}
               </h5>
+              <Link
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={`${product.url}`}
+                >
               {product.image && (
                 <Image
                   src={product.image}
@@ -33,6 +38,7 @@ export default async function ProjectPage() {
                   className="object-contain m-auto shadow-xl border-b-4 border-gray-400 bg-white"
                 />
               )}
+                 </Link>
 
               <h5 className="p-2 text-base text-gray-700 text-center bg-white leading-relaxed " style={{ letterSpacing: "0.1rem" }}>
                 <PortableText value={product.content} />
