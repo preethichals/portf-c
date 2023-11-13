@@ -82,7 +82,7 @@ export default async function Skills() {
               <h3 className=" text-red-700 text-lg font-medium rounded-md underline uppercase m-1">
                 DataBase
               </h3>
-              <p className="bg-white text-sky-900 text-base">My SQL</p>
+              <p className="bg-white text-sky-900 text-base">MySQL</p>
               <p className="bg-white text-sky-900 text-base"> MongoDB</p>
             </div>
             <div
