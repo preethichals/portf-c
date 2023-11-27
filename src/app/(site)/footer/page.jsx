@@ -12,7 +12,7 @@ export default function Footer() {
       <span>
         <Link
           href="#home"
-          className=" scroll-smooth bg-white text-black py-2 px-3 font-medium rounded-md"rel="noopener noreferrer"
+          className="text-sm scroll-smooth bg-white text-black py-2 px-3 font-medium rounded-md"rel="noopener noreferrer"
         >
           Scroll-To-Top
         </Link>
